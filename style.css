@@ -1,0 +1,305 @@
+/* Importação de fonte */   
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+:root{
+    --azul-dnc: #0C70F2;
+    --preto-dnc: #303030;
+    --cinza-rover: #C9C9C9;
+    --fonte-padrao: 'Inter';
+}
+
+    body{
+        margin: 0px; /* Margem Externa */
+        padding: 0px; /* Margem interna */
+        background: linear-gradient(180deg, rgba(12, 112, 242, 0.50) 19.91%, rgba(12, 112, 242, 0.00) 24.84%), #303030;
+        background-repeat: no-repeat;
+    }
+
+    /* Menu de Navegação Principal */
+    #menu-superior{
+        width: 100%;
+        height: 100px;
+        background-color: var(--preto-dnc);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #BABABA;
+    }
+
+        #menu{
+            display: flex;
+            width: 45%; 
+            justify-content: space-around;
+            align-items: center;
+            margin-left: 7%;
+            margin-left: 5%;
+        } 
+
+        #menu-superior div a:hover{
+            color: var(--cinza-rover);
+        }
+
+        #menu-superior div a{
+            font-size: 25px;
+            font-weight: 600;
+            color: white;
+            text-decoration: none;
+            font-family: var(--fonte-padrao);
+        }
+
+        #menu-superior button{
+            margin-right: 5%; 
+            background-color: var(--azul-dnc);
+            border: 0px;
+            height: 40px;
+            width: 80px;
+            font-family: var(--fonte-padrao);
+            font-size: 20px;
+            font-weight: 600px;
+            color: white;
+            box-shadow: 3px 2px 4px rgba(12, 122, 242, 0.25);
+            cursor: pointer;
+        }   
+    /* Seção Principal do Site*/   
+    
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }    
+
+        header{
+            color: white;
+            font-family: var(--fonte-padrao);
+        }
+
+        header h1{
+            font-size: 80px;
+            font-weight: 800;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        header h2{
+            text-align: center;
+            font-size: 40px;
+            font-weight: 700;
+            margin-bottom: 100px;
+        }
+
+        header .invert-color{
+            background-color: black;
+            font-weight: bold;
+            padding: 5px;
+        }
+        
+        form{
+            color: white;
+            font-family: var(--fonte-padrao);
+            font-size: 30px;
+            font-weight: 600;
+            width: 600px;
+        }
+
+        .form-group{
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        form input{
+            border-radius: 10px;
+            border: 0px;
+            height: 35px;
+            font-size: 20px;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.90);
+        }
+
+        form label{
+            margin: 10px 0px 10px 0px;
+        }
+
+        form imput::placeholder{
+            color: rgba(57, 57, 57, 0.50);
+        }
+
+        .checkbox-itens label{
+            font-size: 25px;
+        }
+
+        .checkbox-itens{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        input[type="checkbox"]{
+            transform: scale(1.7);
+        }
+
+        input[type="submit"]{
+            background-color: rgba(12, 112, 242, 0.9);
+            width: 100%;
+            height: 56px;
+            font-size: 32px;
+            color: white;
+            margin-top: 100px;
+            box-shadow:  0px 6px 4px 0px rgba(12, 112, 242, 0.25);
+            cursor: pointer;
+            margin-bottom: 250px;
+        }
+
+        /*Footer*/
+
+        footer{
+            background-color: var(--azul-dnc);
+            width: 100%;
+        }
+
+        footer .linha-1{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        footer ul{
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        footer nav{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 330px;
+        }
+
+        footer h5{
+            text-align: center;
+            color: white;
+            font-weight: 800;
+            font-size: 20px;
+            font-family: var(--fonte-padrao);
+            background-color: var(--preto-dnc);
+            border-radius: 10px;
+            padding: 12px 12px 12px 12px;
+            margin-bottom: 15px;
+        }
+        footer ul li{
+            text-align: center;
+            color: white;
+            font-weight: 600;
+            font-size: 20px;
+            font-family: var(--fonte-padrao);
+            margin: 20px 0px 20px 0px
+        }
+
+        footer ul li a{
+            color: white;
+            text-decoration: none;
+        }
+
+        footer ul li a:hover{
+            color: var(--cinza-rover);
+        }
+
+
+        footer .endereço{
+            font-weight: 600;
+            font-size: 20px;
+            font-family: var(--fonte-padrao);
+            color: white;
+            text-align: center;
+            width: 27%;
+        }
+
+        
+        footer .linha-2{
+            display: flex;
+            justify-content: center;
+            margin: 0px;
+            padding: 10px;
+        }
+
+        footer .linha-2 a{
+            font-family: var(--fonte-padrao);
+            font-size: 20px;
+            font-weight: 600;
+            color: white;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        footer .linha-2 a:first-child{
+            border-right: 3px solid white;
+        }
+
+        footer .linha-2 a:hover{
+            color: var(--cinza-rover);
+        }
+
+        /* Media Query*/
+
+@media only screen and (max-width: 600px){
+
+    /* Menu */
+    #menu-superior{
+        flex-direction: column;
+        height: auto;
+    }
+
+    #menu{
+        flex-direction: column;
+        width:100%;
+        margin: 0px;
+    }
+
+    #menu a{
+        display: flex;
+        height: 50px;
+        align-items: center;
+    }
+    
+    #menu-superior button{
+        width: 100%;
+        margin: 0px;
+    }
+
+    /* Section*/
+
+    section h1{
+        font-size: 38px;
+    }
+
+    section h2{
+        font-size: 28px;
+        padding-right: 15px;
+        padding-left: 15px; 
+    }
+
+    form{
+        width: 95%;
+        font-size: 20px;
+    }
+
+    .checkbox-itens label{
+        font-size: 15px;
+    }
+
+    /* Footer*/
+
+    footer .linha-1{
+        flex-direction: column;
+    }
+
+    footer .endereço{
+        width: 95%;
+        margin-bottom: 20px;
+    }
+}
+    
