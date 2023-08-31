@@ -29,6 +29,10 @@ Eu usei as seguintes tecnologias para desenvolver este projeto: **HTML e CSS**
 - Fontes: **[Inter](https://fonts.google.com/specimen/Inter?query=inter)**
 - Versionamento: **[Git](https://git-scm.com)**
 
+## Próximos commits
+- Colocar API para recolher os dados colocados na área do formúlario no site
+- Otimizar para abrir mais rapidamente
+
 
 ## Layout
 
